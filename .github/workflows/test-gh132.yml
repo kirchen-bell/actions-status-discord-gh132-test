@@ -12,7 +12,7 @@ jobs:
         with:
           webhook: ${{ secrets.DISCORD_WEBHOOK }}
           title: before fix
-      - uses: sarisia/actions-status-discord@gh132
+      - uses: sarisia/actions-status-discord@build-gh132
         if: always()
         with:
           webhook: ${{ secrets.DISCORD_WEBHOOK }}
